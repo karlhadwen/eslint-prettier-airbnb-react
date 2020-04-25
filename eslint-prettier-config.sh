@@ -99,7 +99,7 @@ echo -e "${GREEN}Configuring your development environment... ${NC}"
 echo
 echo -e "1/5 ${LCYAN}ESLint & Prettier Installation... ${NC}"
 echo
-$pkg_cmd -D eslint prettier
+$pkg_cmd -D eslint prettier eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 
 echo
 echo -e "2/5 ${YELLOW}Conforming to Airbnb's JavaScript Style Guide... ${NC}"
@@ -124,7 +124,8 @@ else
   "extends": [
     "airbnb",
     "prettier",
-    "prettier/react"
+    "prettier/react",
+    "plugin:jsx-a11y/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -247,7 +248,8 @@ else
   "plugins": [
     "prettier",
     "react",
-    "react-hooks"
+    "react-hooks",
+    "jsx-a11y"
   ]
 }' >> .eslintrc${config_extension}
 fi
