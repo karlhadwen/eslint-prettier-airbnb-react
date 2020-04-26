@@ -249,7 +249,7 @@ else
   "plugins": [
     "prettier",
     "react",
-    "react-hooks",
+    "react-hooks"
   ]
 }' >> .eslintrc${config_extension}
 fi
