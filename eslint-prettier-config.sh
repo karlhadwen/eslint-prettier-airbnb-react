@@ -147,13 +147,7 @@ else
     "react-hooks/rules-of-hooks": "error",
     "no-debugger": 0,
     "no-alert": 0,
-    "no-unused-vars": [
-      1,
-      {
-        "ignoreSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
-      }
-    ],
+    "no-unused-vars": 0,
     "prefer-const": [
       "error",
       {
