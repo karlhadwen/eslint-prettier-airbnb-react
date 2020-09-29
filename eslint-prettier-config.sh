@@ -183,20 +183,7 @@ else
       }
     ],
     "radix": 0,
-    "no-shadow": [
-      2,
-      {
-        "hoist": "all",
-        "allow": [
-          "resolve",
-          "reject",
-          "done",
-          "next",
-          "err",
-          "error"
-        ]
-      }
-    ],
+    "no-shadow": "off",
     "quotes": [
       2,
       "single",
