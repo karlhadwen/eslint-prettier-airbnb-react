@@ -110,7 +110,8 @@ else
     "airbnb",
     "prettier",
     "prettier/react",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
