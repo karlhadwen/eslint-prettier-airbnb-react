@@ -109,7 +109,6 @@ else
   "extends": [
     "airbnb",
     "prettier",
-    "prettier/react",
     "plugin:jsx-a11y/recommended",
     "plugin:react-hooks/recommended"
   ],
