@@ -109,7 +109,8 @@ else
   "extends": [
     "airbnb",
     "prettier",
-    "plugin:jsx-a11y/recommended"
+    "plugin:jsx-a11y/recommended",
+    "plugin:react-hooks/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
